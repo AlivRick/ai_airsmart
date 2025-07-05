@@ -254,5 +254,8 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"⚠️ Không thể load file PDF mặc định: {e}")
     
+    # Lấy port từ environment variable (cho Render) hoặc dùng 8000 mặc định
+    port = int(os.environ.get("PORT", 8000))
+    
     # Chạy server
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=port)

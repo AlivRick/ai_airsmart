@@ -1,0 +1,36 @@
+# Core web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# LangChain libraries
+langchain-community==0.0.38
+langchain-text-splitters==0.0.1
+langchain-openai==0.0.5
+langchain==0.1.0
+
+# Google Gemini API
+google-generativeai==0.3.2
+
+# PDF processing
+pypdf==3.17.4
+
+# Machine learning and vector processing
+scikit-learn==1.3.2
+numpy==1.24.3
+faiss-cpu==1.7.4
+
+# HTTP requests
+requests==2.31.0
+
+# PDF generation (for sample creation)
+reportlab==4.0.7
+
+# Data validation
+pydantic==2.5.0
+
+# Additional utilities
+typing-extensions==4.8.0
